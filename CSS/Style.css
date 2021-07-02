@@ -1,8 +1,8 @@
 .slider{
     width: 65%;
     margin: 30px auto;
-    box-shadow: 0 0 25px #099;
-    border-radius:4px ;
+    box-shadow: 0 0 20px #050e0e;
+    border-radius: 10% ;
     overflow: hidden;
     
 }
