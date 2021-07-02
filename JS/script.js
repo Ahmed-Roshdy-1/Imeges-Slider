@@ -14,7 +14,7 @@ let prevBtn = document.querySelector('.slider-button-prev');
 let playBtn = document.querySelector('.slider-button-play');
 
 function nextImage() {
-    if (currentImage < images.length) {
+    if (currentImage < images.length - 1) {
         currentImage++;
     } else {
         currentImage = 0;
