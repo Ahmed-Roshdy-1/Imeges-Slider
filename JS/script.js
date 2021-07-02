@@ -8,12 +8,12 @@ let images = [
 
 let currentImage = 0;
 
-let sliderImage = document.querySelector('.slider Image');
+let sliderImage = document.querySelector('.slider-image');
 let nextBtn = document.querySelector('.slider-button-next');
 let prevBtn = document.querySelector('.slider-button-prev');
 let playBtn = document.querySelector('.slider-button-play');
 
-let nextImage = () => {
+function nextImage() {
     if (currentImage < images.length) {
         currentImage++;
     } else {
