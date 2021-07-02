@@ -1,9 +1,9 @@
 let images = [
-    'imades/img 1',
-    'imades/img 2',
-    'imades/img 3',
-    'imades/img 4',
-    'imades/img 5'
+    'Imades/img 1',
+    'Imades/img 2',
+    'Imades/img 3',
+    'Imades/img 4',
+    'Imades/img 5'
 ];
 
 let currentImage = 0;
