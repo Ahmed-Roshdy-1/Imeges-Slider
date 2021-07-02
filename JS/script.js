@@ -39,10 +39,11 @@ let interval;
 function autoplay() {
     if (interval) {
         clearInterval(interval);
+        interval = null;
     } else {
         interval = setInterval(() => {
             nextImage();
-        }, 2000);
+        }, 2500);
 
     }
     playBtn.children[0].classList.toggle("fa-play");
