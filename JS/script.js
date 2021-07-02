@@ -43,7 +43,7 @@ function autoplay() {
     } else {
         interval = setInterval(() => {
             nextImage();
-        }, 2500);
+        }, 2000);
 
     }
     playBtn.children[0].classList.toggle("fa-play");
